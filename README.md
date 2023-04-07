@@ -1,7 +1,4 @@
-# Final-Project-
-
 [Live] Phase 5 Project Guidelines
-GitHub RepoCreate New Issue
 It is time. Your final project for this course. This is the capstone project that you'll be showing off to demonstrate all the things that you've learned so far. This is awesome.
 
 Before we dive into what your project is going to be about, we need to establish some ground rules.
@@ -29,3 +26,12 @@ Organization
 Kanban/Scrum Board: Because this will be the most complex project you've made during this course, you'll need something to keep you organized. We recommend Trello or a Github Project Board. Use this to track what you're doing and what you need to work on. It's also a great idea to keep track of bugs that you're not going to immediately fix.
 
 Pomodoro Timer: If you don't take breaks, you'll end up hurting your eyes, getting RSI (repetitive strain injury) or burning yourself out. The Pomodoro Timer method lets you put in solid chunks of work while also giving you regular breaks. We like Marinara Timer, since it's nicely customizable.
+
+Resources
+Google Fonts — An amazing resource for fonts of all types
+Grid Garden / Flexbox Froggy — Great for getting familiar with Grid and Flexbox
+CSS Tricks — Learn yourself some sweet CSS
+Semantic UI React / ReactStrap — CSS styling using React components
+Postman — Test your backend without having to build out a frontend
+Render — Simple, free hosting for your site
+App Ideas — some ideas for non-standard apps
