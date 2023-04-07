@@ -11,27 +11,13 @@ Because we're asking you to show off a specific set of skills, we have some requ
 Project Requirements
 You must meet the following Phase 5 Project Minimum Requirements:
 
-Implement Flask and SQLAlchemy in an application backend.
-Include a many to many relationship.
-Implement a minimum of 4 models.
-Implement a minimum of 5 client side routes using React router.
-Include full CRUD on at least 1 model, following REST conventions.
-Implement validations and error handling.
-Implement something new not taught in the curriculum. (Check in with your instructor to ensure the scope of your idea is appropriate.)
-Implement useContext or Redux.
+-Implement Flask and SQLAlchemy in an application backend.
+-Include a many to many relationship.
+-Implement a minimum of 4 models.
+-Implement a minimum of 5 client side routes using React router.
+-Include full CRUD on at least 1 model, following REST conventions.
+-Implement validations and error handling.
+-Implement something new not taught in the curriculum. (Check in with your instructor to ensure the scope of your idea is appropriate.)
+-Implement useContext or Redux.
 ** Please discuss with your instructor if you have any issues aligning these requirements with your project.
 
-Helpful Tools
-Organization
-Kanban/Scrum Board: Because this will be the most complex project you've made during this course, you'll need something to keep you organized. We recommend Trello or a Github Project Board. Use this to track what you're doing and what you need to work on. It's also a great idea to keep track of bugs that you're not going to immediately fix.
-
-Pomodoro Timer: If you don't take breaks, you'll end up hurting your eyes, getting RSI (repetitive strain injury) or burning yourself out. The Pomodoro Timer method lets you put in solid chunks of work while also giving you regular breaks. We like Marinara Timer, since it's nicely customizable.
-
-Resources
-Google Fonts — An amazing resource for fonts of all types
-Grid Garden / Flexbox Froggy — Great for getting familiar with Grid and Flexbox
-CSS Tricks — Learn yourself some sweet CSS
-Semantic UI React / ReactStrap — CSS styling using React components
-Postman — Test your backend without having to build out a frontend
-Render — Simple, free hosting for your site
-App Ideas — some ideas for non-standard apps
