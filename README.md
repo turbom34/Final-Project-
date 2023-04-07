@@ -1,7 +1,4 @@
-# Final-Project-
-
 [Live] Phase 5 Project Guidelines
-GitHub RepoCreate New Issue
 It is time. Your final project for this course. This is the capstone project that you'll be showing off to demonstrate all the things that you've learned so far. This is awesome.
 
 Before we dive into what your project is going to be about, we need to establish some ground rules.
@@ -14,18 +11,14 @@ Because we're asking you to show off a specific set of skills, we have some requ
 Project Requirements
 You must meet the following Phase 5 Project Minimum Requirements:
 
-Implement Flask and SQLAlchemy in an application backend.
-Include a many to many relationship.
-Implement a minimum of 4 models.
-Implement a minimum of 5 client side routes using React router.
-Include full CRUD on at least 1 model, following REST conventions.
-Implement validations and error handling.
-Implement something new not taught in the curriculum. (Check in with your instructor to ensure the scope of your idea is appropriate.)
-Implement useContext or Redux.
+-Implement Flask and SQLAlchemy in an application backend.
+-Include a many to many relationship.
+-Implement a minimum of 4 models.
+-Implement a minimum of 5 client side routes using React router.
+-Include full CRUD on at least 1 model, following REST conventions.
+-Implement validations and error handling.
+-Implement something new not taught in the curriculum. (Check in with your instructor to ensure the scope of your idea is appropriate.)
+-Implement useContext or Redux.
 ** Please discuss with your instructor if you have any issues aligning these requirements with your project.
 
-Helpful Tools
-Organization
-Kanban/Scrum Board: Because this will be the most complex project you've made during this course, you'll need something to keep you organized. We recommend Trello or a Github Project Board. Use this to track what you're doing and what you need to work on. It's also a great idea to keep track of bugs that you're not going to immediately fix.
-
-Pomodoro Timer: If you don't take breaks, you'll end up hurting your eyes, getting RSI (repetitive strain injury) or burning yourself out. The Pomodoro Timer method lets you put in solid chunks of work while also giving you regular breaks. We like Marinara Timer, since it's nicely customizable.
+![Annotation 2023-04-07 121514](https://user-images.githubusercontent.com/118014029/230641969-346429e9-bfbf-4b2f-ac75-57a736d447e3.png)
