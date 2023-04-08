@@ -3,8 +3,18 @@ from . import db
 from .models import User
 from flask_login import login_user, logout_user, login_required, current_user
 from werkzeug.security import generate_password_hash, check_password_hash
+from .sports import sports
+
 
 auth = Blueprint("auth", __name__)
+
+
+@auth.route('/sports')
+def sports_page():
+    data = sports()
+    home_score = data['HomeScore']
+    return render_template('sports.html', home_score=home_score)
+
 
 
 @auth.route("/login", methods=['GET', 'POST'])
@@ -67,3 +77,5 @@ def sign_up():
 def logout():
     logout_user()
     return redirect(url_for("views.home"))
+
+
