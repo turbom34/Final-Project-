@@ -40,6 +40,7 @@ def create_database(app):
             db.create_all()
         print('Created Database!')
 
+
     
 
     

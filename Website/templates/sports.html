@@ -1,0 +1,28 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+    %}
+    <h1 align="center">{% block header %}Sports Scores{% endblock %}</h1>
+    <head>
+        <title>Sports Page</title>
+    </head>
+    <body>
+        <h1>Live Sports Scores</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Home Team</th>
+                    <th>Score</th>
+                    <th>Away Team</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for score in scores %}
+                <tr>
+                    <td>{{ score['home_team'] }}</td>
+                    <td>{{ score['home_score'] }} - {{ score['away_score'] }}</td>
+                    <td>{{ score['away_team'] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </body>
+</html>
