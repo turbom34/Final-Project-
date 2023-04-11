@@ -1,28 +1,33 @@
-{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
-    %}
-    <h1 align="center">{% block header %}Sports Scores{% endblock %}</h1>
-    <head>
-        <title>Sports Page</title>
-    </head>
-    <body>
-        <h1>Live Sports Scores</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th>Home Team</th>
-                    <th>Score</th>
-                    <th>Away Team</th>
+{% extends "base.html" %}
+{% block title %}Sports{% endblock %} 
+{% block content %}
+    <h1>Sports Page</h1>
+    {% if user %}
+        <p>Welcome, {{ user.username }}!</p>
+    {% else %}
+        <p>Welcome, guest!</p>
+    {% endif %}
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Home Team</th>
+                <th>Score</th>
+                <th>Away Team</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for score in scores %}
+                <tr class="border">
+                    <td>{{ score.home_team }}</td>
+                    <td>{{ score.home_score }}</td>
+                    <td>{{ score.away_team }}</td>
+                    <td>{{ score.away_score }}</td>
                 </tr>
-            </thead>
-            <tbody>
-                {% for score in scores %}
-                <tr>
-                    <td>{{ score['home_team'] }}</td>
-                    <td>{{ score['home_score'] }} - {{ score['away_score'] }}</td>
-                    <td>{{ score['away_team'] }}</td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-    </body>
-</html>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
+
+
+
