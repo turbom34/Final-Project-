@@ -3,17 +3,30 @@ from . import db
 from .models import User
 from flask_login import login_user, logout_user, login_required, current_user
 from werkzeug.security import generate_password_hash, check_password_hash
-from .sports import sports
+from .sports import requests
 
 
 auth = Blueprint("auth", __name__)
 
 
+from flask_login import current_user
+from flask_login import login_required
+
 @auth.route('/sports')
 def sports_page():
-    data = sports()
-    home_score = data['HomeScore']
-    return render_template('sports.html', home_score=home_score)
+    scores = []
+    r = requests.get('https://www.balldontlie.io/api/v1/games')
+    data = r.json()
+    for game in data['data']:
+        scores.append({
+            'home_team': game['home_team']['full_name'],
+            'home_score': game['home_team_score'],
+            'away_team': game['visitor_team']['full_name'],
+            'away_score': game['visitor_team_score']
+        })
+    return render_template('sports.html', scores=scores, user=current_user)
+
+
 
 
 
